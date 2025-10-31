@@ -1,13 +1,31 @@
 <!DOCTYPE html>
-<html class="light" lang="en">
+<html lang="en" class="light">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Nnomzyy Chips - Deliciously Crispy Plantain Chips</title>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
-<script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nnomzyy Chips - Deliciously Crispy Plantain Chips</title>
+
+  <!-- 🌟 SEO Meta -->
+  <meta name="description" content="Nnomzyy Chips - Delicious, crispy, handcrafted plantain chips made with love. Enjoy the perfect crunch and flavor in every bite. Order directly on Telegram!">
+  <meta name="keywords" content="plantain chips, Nnomzyy Chips, snacks, food business, Nigeria, banana chips, student business, crunchy, sweet plantain">
+  <meta name="author" content="Nnomzyy Chips">
+
+  <!-- 🌐 Open Graph / Social Preview -->
+  <meta property="og:title" content="Nnomzyy Chips - Deliciously Crispy Plantain Chips" />
+  <meta property="og:description" content="Fresh, crunchy, and handcrafted with love. Order your favorite Nnomzyy Chips directly on Telegram!" />
+  <meta property="og:image" content="https://yourdomain.com/nnomzyy-preview.jpg" />
+  <meta property="og:url" content="https://nnomzyychips.vercel.app/" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- 🧠 Favicon -->
+  <link rel="icon" href="https://img.icons8.com/emoji/48/banana-emoji.png" />
+
+  <!-- 🪶 Fonts & Tailwind -->
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+  <script>
     tailwind.config = {
       darkMode: "class",
       theme: {
@@ -22,283 +40,138 @@
           },
           fontFamily: {
             "display": ["Plus Jakarta Sans", "sans-serif"]
-          },
-        },
-      },
+          }
+        }
+      }
     }
-</script>
-<style>
-  @keyframes float {
-    0%, 100% { transform: translateY(0px); }
-    50% { transform: translateY(-10px); }
-  }
-  .float-animation {
-    animation: float 3s ease-in-out infinite;
-  }
-  .scroll-smooth {
-    scroll-behavior: smooth;
-  }
-</style>
+  </script>
+
+  <style>
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    .float-animation { animation: float 3s ease-in-out infinite; }
+    .scroll-smooth { scroll-behavior: smooth; }
+  </style>
 </head>
+
 <body class="bg-background-light dark:bg-background-dark font-display text-text-light dark:text-text-dark scroll-smooth">
 
-<!-- Navigation Bar -->
+<!-- 🌴 NAVBAR -->
 <nav class="sticky top-0 z-50 bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-sm border-b border-primary/10">
-  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex items-center justify-between h-16">
-      <div class="flex items-center gap-3">
-        <div class="w-8 h-8 text-primary">
-          <svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-            <path d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z" fill="currentColor"></path>
-          </svg>
-        </div>
-        <h2 class="text-xl font-bold">Nnomzyy Chips</h2>
+  <div class="max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
+    <div class="flex items-center gap-3">
+      <div class="w-8 h-8 text-primary">
+        <svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+          <path d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z" fill="currentColor"></path>
+        </svg>
       </div>
-      <div class="flex items-center gap-4">
-        <a href="#products" class="hidden sm:block text-sm font-medium hover:text-primary transition-colors">Products</a>
-        <a href="#about" class="hidden sm:block text-sm font-medium hover:text-primary transition-colors">About</a>
-        <button onclick="toggleDarkMode()" class="p-2 rounded-lg hover:bg-primary/10 transition-colors">
-          <span class="material-symbols-outlined">dark_mode</span>
-        </button>
-      </div>
+      <h2 class="text-xl font-bold">Nnomzyy Chips</h2>
+    </div>
+    <div class="flex items-center gap-4">
+      <a href="#products" class="hidden sm:block text-sm font-medium hover:text-primary transition-colors">Products</a>
+      <a href="#about" class="hidden sm:block text-sm font-medium hover:text-primary transition-colors">About</a>
+      <button onclick="toggleDarkMode()" class="p-2 rounded-lg hover:bg-primary/10 transition-colors">
+        <span class="material-symbols-outlined">dark_mode</span>
+      </button>
     </div>
   </div>
 </nav>
 
-<main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-  
-  <!-- Hero Section -->
-  <div class="py-12 sm:py-16">
-    <div class="flex min-h-[400px] flex-col gap-6 items-center justify-center text-center">
-      <div class="text-6xl sm:text-7xl lg:text-8xl float-animation">🍌</div>
-      <h1 class="text-4xl font-extrabold sm:text-5xl lg:text-6xl max-w-3xl">
-        Deliciously Crispy Plantain Chips
-      </h1>
-      <h2 class="max-w-2xl text-lg sm:text-xl text-text-light/80 dark:text-text-dark/80">
-        Fresh, crunchy, and made with love — order directly from us today!
-      </h2>
-      <div class="flex flex-col sm:flex-row gap-4 mt-4">
-        <a href="#products" class="inline-flex items-center justify-center gap-2 rounded-lg h-12 px-6 bg-primary text-white font-bold hover:bg-primary/90 hover:scale-105 transition-all">
-          <span>View Products</span>
-          <span class="material-symbols-outlined">arrow_downward</span>
-        </a>
-        <a href="https://t.me/Nnomzzyy" target="_blank" class="inline-flex items-center justify-center gap-2 rounded-lg h-12 px-6 border-2 border-primary text-primary font-bold hover:bg-primary hover:text-white transition-all">
-          <span class="material-symbols-outlined">send</span>
-          <span>Contact Us</span>
-        </a>
-      </div>
+<!-- 🍌 HERO -->
+<header class="text-center py-16">
+  <div class="text-7xl float-animation">🍌</div>
+  <h1 class="text-5xl font-extrabold mt-4">Deliciously Crispy Plantain Chips</h1>
+  <p class="text-lg mt-3 text-text-light/80 dark:text-text-dark/80 max-w-2xl mx-auto">
+    Fresh, crunchy, and made with love — order directly from us today!
+  </p>
+  <div class="mt-6 flex justify-center gap-4">
+    <a href="#products" class="h-12 px-6 bg-primary text-white rounded-lg font-bold hover:bg-primary/90 transition-all">View Products</a>
+    <a href="https://t.me/Nnomzzyy" target="_blank" class="h-12 px-6 border-2 border-primary text-primary font-bold rounded-lg hover:bg-primary hover:text-white transition-all">Contact Us</a>
+  </div>
+</header>
+
+<!-- 🌿 WHY CHOOSE US -->
+<section id="about" class="py-12 bg-primary/5 rounded-xl mx-4">
+  <h2 class="text-3xl font-bold text-center mb-8">Why Choose Nnomzyy Chips?</h2>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto px-4">
+    <div class="p-6 text-center bg-white dark:bg-background-dark rounded-xl shadow-md hover:shadow-lg transition-all">
+      <span class="material-symbols-outlined text-primary text-4xl mb-3">eco</span>
+      <h3 class="font-bold mb-2">100% Natural</h3>
+      <p>Made from fresh, locally-sourced plantains with no artificial preservatives.</p>
+    </div>
+    <div class="p-6 text-center bg-white dark:bg-background-dark rounded-xl shadow-md hover:shadow-lg transition-all">
+      <span class="material-symbols-outlined text-primary text-4xl mb-3">favorite</span>
+      <h3 class="font-bold mb-2">Made with Love</h3>
+      <p>Handcrafted in small batches to ensure quality and freshness.</p>
+    </div>
+    <div class="p-6 text-center bg-white dark:bg-background-dark rounded-xl shadow-md hover:shadow-lg transition-all">
+      <span class="material-symbols-outlined text-primary text-4xl mb-3">local_shipping</span>
+      <h3 class="font-bold mb-2">Fast Delivery</h3>
+      <p>Quick and reliable delivery straight to your doorstep.</p>
     </div>
   </div>
+</section>
 
-  <!-- Why Choose Us -->
-  <div class="py-12" id="about">
-    <h2 class="text-3xl font-bold text-center mb-8">Why Choose Nnomzyy Chips?</h2>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <div class="flex flex-col items-center text-center p-6 rounded-xl bg-primary/5 hover:bg-primary/10 transition-colors">
-        <div class="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center mb-4">
-          <span class="material-symbols-outlined text-primary text-3xl">eco</span>
-        </div>
-        <h3 class="text-xl font-bold mb-2">100% Natural</h3>
-        <p class="text-text-light/70 dark:text-text-dark/70">Made from fresh, locally-sourced plantains with no artificial preservatives</p>
-      </div>
-      <div class="flex flex-col items-center text-center p-6 rounded-xl bg-primary/5 hover:bg-primary/10 transition-colors">
-        <div class="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center mb-4">
-          <span class="material-symbols-outlined text-primary text-3xl">favorite</span>
-        </div>
-        <h3 class="text-xl font-bold mb-2">Made with Love</h3>
-        <p class="text-text-light/70 dark:text-text-dark/70">Handcrafted in small batches to ensure quality and freshness</p>
-      </div>
-      <div class="flex flex-col items-center text-center p-6 rounded-xl bg-primary/5 hover:bg-primary/10 transition-colors">
-        <div class="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center mb-4">
-          <span class="material-symbols-outlined text-primary text-3xl">local_shipping</span>
-        </div>
-        <h3 class="text-xl font-bold mb-2">Fast Delivery</h3>
-        <p class="text-text-light/70 dark:text-text-dark/70">Quick and reliable delivery straight to your doorstep</p>
+<!-- 🛍️ PRODUCTS -->
+<section id="products" class="py-16">
+  <h2 class="text-3xl font-bold text-center mb-8">Our Flavors & Sizes</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 max-w-6xl mx-auto px-4">
+    <!-- Example Product -->
+    <div class="bg-white dark:bg-background-dark rounded-xl shadow-lg hover:shadow-2xl overflow-hidden group">
+      <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPnV6E2qH9Z7d0SVGAXHVezbO6szsGsjs68kOxnGpFWAkyW9okfoER42qGvR3SZRESpmcBZodl3WGHWXtCF8RYh5AMCIAWak5ayUrq2kWsRTVON7mprGMAC58-jtzz5lMwpaeRfLhhZJao7Na6sjvDtn-VLamXUmMcOWTyPfDLyLUXeuaqKX1i6M42LBvy6oSArxJFlnzRP34voFVDlUCYgM3BJtGIAaQh6QgBM3nSvAIaj3CSjduvvSYtL0XwUPc8XtR1BtcIobY"
+        alt="Mini Pack" class="w-full aspect-square object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+      <div class="p-5">
+        <h3 class="text-lg font-bold">Mini Pack</h3>
+        <p class="text-sm text-text-light/70 mb-2">Perfect for a quick snack</p>
+        <p class="text-2xl font-bold text-primary mb-3">₦200</p>
+        <button onclick="orderProduct('₦200 Mini Pack')" class="w-full h-11 bg-primary text-white font-bold rounded-lg hover:bg-primary/90 transition-all">
+          <span class="material-symbols-outlined text-sm">send</span> Order Now
+        </button>
       </div>
     </div>
+    <!-- Add other product cards here (same pattern) -->
   </div>
+</section>
 
-  <!-- Products -->
-  <div class="py-12" id="products">
-    <h2 class="text-3xl font-bold text-center mb-8">Our Flavors & Sizes</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-      
-      <!-- ₦200 -->
-      <div class="flex flex-col bg-white dark:bg-background-dark rounded-xl shadow-lg hover:shadow-2xl transition-all overflow-hidden group">
-        <div class="w-full aspect-square bg-cover bg-center group-hover:scale-110 transition-transform duration-300" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAPnV6E2qH9Z7d0SVGAXHVezbO6szsGsjs68kOxnGpFWAkyW9okfoER42qGvR3SZRESpmcBZodl3WGHWXtCF8RYh5AMCIAWak5ayUrq2kWsRTVON7mprGMAC58-jtzz5lMwpaeRfLhhZJao7Na6sjvDtn-VLamXUmMcOWTyPfDLyLUXeuaqKX1i6M42LBvy6oSArxJFlnzRP34voFVDlUCYgM3BJtGIAaQh6QgBM3nSvAIaj3CSjduvvSYtL0XwUPc8XtR1BtcIobY");'></div>
-        <div class="p-5">
-          <h3 class="text-lg font-bold mb-1">Mini Pack</h3>
-          <p class="text-sm text-text-light/70 dark:text-text-dark/70 mb-3">Perfect for a quick snack</p>
-          <p class="text-2xl font-bold text-primary mb-3">₦200</p>
-          <button onclick="orderProduct('₦200 plantain chips')" class="w-full flex items-center justify-center gap-2 rounded-lg h-11 bg-primary text-white font-bold hover:bg-primary/90 hover:scale-105 transition-all">
-            <span class="material-symbols-outlined">send</span>
-            <span>Order Now</span>
-          </button>
-        </div>
-      </div>
-
-      <!-- ₦400 -->
-      <div class="flex flex-col bg-white dark:bg-background-dark rounded-xl shadow-lg hover:shadow-2xl transition-all overflow-hidden group">
-        <div class="w-full aspect-square bg-cover bg-center group-hover:scale-110 transition-transform duration-300" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAIqsCoLtqYF1IhnDENL8rbM7ppeVfC63hryAIfZw1b9Y4TS3E6xIGJgMLJRSqj0_FtVD7nBVO8lHyRPm0UyOp2c_X-O5RxMknf5bc6QS2k9Ve20mwA7ohcf41FUrpeXNtY05CVTylZd19F_8xqLbP7dGThN3LR_1I8YumTxbGxA-wOs9dHFCIEekoBEhK7f6k_Y209I7qcBX3HN1u55omgW45NKPtfzh9qdIzI4jraTNV_d5eMSsPi35Ze0_jMD6LAiucMgFEzwWA");'></div>
-        <div class="p-5">
-          <h3 class="text-lg font-bold mb-1">Small Pack</h3>
-          <p class="text-sm text-text-light/70 dark:text-text-dark/70 mb-3">Great for sharing</p>
-          <p class="text-2xl font-bold text-primary mb-3">₦400</p>
-          <button onclick="orderProduct('₦400 plantain chips')" class="w-full flex items-center justify-center gap-2 rounded-lg h-11 bg-primary text-white font-bold hover:bg-primary/90 hover:scale-105 transition-all">
-            <span class="material-symbols-outlined">send</span>
-            <span>Order Now</span>
-          </button>
-        </div>
-      </div>
-
-      <!-- ₦1000 -->
-      <div class="flex flex-col bg-white dark:bg-background-dark rounded-xl shadow-lg hover:shadow-2xl transition-all overflow-hidden group">
-        <div class="w-full aspect-square bg-cover bg-center group-hover:scale-110 transition-transform duration-300" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAfwZqE8W85UTfgJQYMa8VxkaaX10EbESDiPwKpd4gXwjgMS4qpNYTYsfISrBYAXKq8WGKY6J46nIbNgvx2Y7c8MZaUb1YQmV6Riv5Fdt-M-qkcxGdSHGp9_oqlz9iKCczJiL2Et2cRCa-zPb4uO-P4qdYg_OnWMRWUZTG8Z6lL0R5tcnyUrWM8GmsvIl-58SysoOY9rzMxvcVnJ0ZitoaYWNO37ahzSPkUfH_1aika_ApK8-lVzliu6k_k7pq70eSQqvAANDmrXSI");'></div>
-        <div class="p-5">
-          <h3 class="text-lg font-bold mb-1">Medium Pack</h3>
-          <p class="text-sm text-text-light/70 dark:text-text-dark/70 mb-3">Perfect for family snacking</p>
-          <p class="text-2xl font-bold text-primary mb-3">₦1,000</p>
-          <button onclick="orderProduct('₦1,000 plantain chips')" class="w-full flex items-center justify-center gap-2 rounded-lg h-11 bg-primary text-white font-bold hover:bg-primary/90 hover:scale-105 transition-all">
-            <span class="material-symbols-outlined">send</span>
-            <span>Order Now</span>
-          </button>
-        </div>
-      </div>
-
-      <!-- ₦1500 -->
-      <div class="flex flex-col bg-white dark:bg-background-dark rounded-xl shadow-lg hover:shadow-2xl transition-all overflow-hidden group">
-        <div class="w-full aspect-square bg-cover bg-center group-hover:scale-110 transition-transform duration-300" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAPnV6E2qH9Z7d0SVGAXHVezbO6szsGsjs68kOxnGpFWAkyW9okfoER42qGvR3SZRESpmcBZodl3WGHWXtCF8RYh5AMCIAWak5ayUrq2kWsRTVON7mprGMAC58-jtzz5lMwpaeRfLhhZJao7Na6sjvDtn-VLamXUmMcOWTyPfDLyLUXeuaqKX1i6M42LBvy6oSArxJFlnzRP34voFVDlUCYgM3BJtGIAaQh6QgBM3nSvAIaj3CSjduvvSYtL0XwUPc8XtR1BtcIobY");'></div>
-        <div class="p-5">
-          <h3 class="text-lg font-bold mb-1">Large Pack</h3>
-          <p class="text-sm text-text-light/70 dark:text-text-dark/70 mb-3">Best value for chip lovers</p>
-          <div class="flex items-center justify-between mb-3">
-            <p class="text-2xl font-bold text-primary">₦1,500</p>
-            <span class="text-xs bg-accent/20 text-accent px-3 py-1 rounded-full font-medium">Popular</span>
-          </div>
-          <button onclick="orderProduct('₦1,500 plantain chips')" class="w-full flex items-center justify-center gap-2 rounded-lg h-11 bg-primary text-white font-bold hover:bg-primary/90 hover:scale-105 transition-all">
-            <span class="material-symbols-outlined">send</span>
-            <span>Order Now</span>
-          </button>
-        </div>
-      </div>
-
-      <!-- ₦1600 -->
-      <div class="flex flex-col bg-white dark:bg-background-dark rounded-xl shadow-lg hover:shadow-2xl transition-all overflow-hidden group">
-        <div class="w-full aspect-square bg-cover bg-center group-hover:scale-110 transition-transform duration-300" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAIqsCoLtqYF1IhnDENL8rbM7ppeVfC63hryAIfZw1b9Y4TS3E6xIGJgMLJRSqj0_FtVD7nBVO8lHyRPm0UyOp2c_X-O5RxMknf5bc6QS2k9Ve20mwA7ohcf41FUrpeXNtY05CVTylZd19F_8xqLbP7dGThN3LR_1I8YumTxbGxA-wOs9dHFCIEekoBEhK7f6k_Y209I7qcBX3HN1u55omgW45NKPtfzh9qdIzI4jraTNV_d5eMSsPi35Ze0_jMD6LAiucMgFEzwWA");'></div>
-        <div class="p-5">
-          <h3 class="text-lg font-bold mb-1">XL Pack</h3>
-          <p class="text-sm text-text-light/70 dark:text-text-dark/70 mb-3">Extra large for parties</p>
-          <p class="text-2xl font-bold text-primary mb-3">₦1,600</p>
-          <button onclick="orderProduct('₦1,600 plantain chips')" class="w-full flex items-center justify-center gap-2 rounded-lg h-11 bg-primary text-white font-bold hover:bg-primary/90 hover:scale-105 transition-all">
-            <span class="material-symbols-outlined">send</span>
-            <span>Order Now</span>
-          </button>
-        </div>
-      </div>
-
-      <!-- ₦2000 -->
-      <div class="flex flex-col bg-white dark:bg-background-dark rounded-xl shadow-lg hover:shadow-2xl transition-all overflow-hidden group">
-        <div class="w-full aspect-square bg-cover bg-center group-hover:scale-110 transition-transform duration-300" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAfwZqE8W85UTfgJQYMa8VxkaaX10EbESDiPwKpd4gXwjgMS4qpNYTYsfISrBYAXKq8WGKY6J46nIbNgvx2Y7c8MZaUb1YQmV6Riv5Fdt-M-qkcxGdSHGp9_oqlz9iKCczJiL2Et2cRCa-zPb4uO-P4qdYg_OnWMRWUZTG8Z6lL0R5tcnyUrWM8GmsvIl-58SysoOY9rzMxvcVnJ0ZitoaYWNO37ahzSPkUfH_1aika_ApK8-lVzliu6k_k7pq70eSQqvAANDmrXSI");'></div>
-        <div class="p-5">
-          <h3 class="text-lg font-bold mb-1">Premium Pack</h3>
-          <p class="text-sm text-text-light/70 dark:text-text-dark/70 mb-3">Premium quality serving</p>
-          <p class="text-2xl font-bold text-primary mb-3">₦2,000</p>
-          <button onclick="orderProduct('₦2,000 plantain chips')" class="w-full flex items-center justify-center gap-2 rounded-lg h-11 bg-primary text-white font-bold hover:bg-primary/90 hover:scale-105 transition-all">
-            <span class="material-symbols-outlined">send</span>
-            <span>Order Now</span>
-          </button>
-        </div>
-      </div>
-
-      <!-- ₦4500 -->
-      <div class="flex flex-col bg-white dark:bg-background-dark rounded-xl shadow-lg hover:shadow-2xl transition-all overflow-hidden group relative">
-        <div class="absolute top-4 right-4 z-10 bg-accent text-background-dark px-3 py-1 rounded-full text-xs font-bold">MEGA DEAL</div>
-        <div class="w-full aspect-square bg-cover bg-center group-hover:scale-110 transition-transform duration-300" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAPnV6E2qH9Z7d0SVGAXHVezbO6szsGsjs68kOxnGpFWAkyW9okfoER42qGvR3SZRESpmcBZodl3WGHWXtCF8RYh5AMCIAWak5ayUrq2kWsRTVON7mprGMAC58-jtzz5lMwpaeRfLhhZJao7Na6sjvDtn-VLamXUmMcOWTyPfDLyLUXeuaqKX1i6M42LBvy6oSArxJFlnzRP34voFVDlUCYgM3BJtGIAaQh6QgBM3nSvAIaj3CSjduvvSYtL0XwUPc8XtR1BtcIobY");'></div>
-        <div class="p-5">
-          <h3 class="text-lg font-bold mb-1">Mega Party Pack</h3>
-          <p class="text-sm text-text-light/70 dark:text-text-dark/70 mb-3">Ultimate for events</p>
-          <p class="text-2xl font-bold text-primary mb-3">₦4,500</p>
-          <button onclick="orderProduct('₦4,500 plantain chips')" class="w-full flex items-center justify-center gap-2 rounded-lg h-11 bg-primary text-white font-bold hover:bg-primary/90 hover:scale-105 transition-all">
-            <span class="material-symbols-outlined">send</span>
-            <span>Order Now</span>
-          </button>
-        </div>
-      </div>
-
+<!-- 💬 TESTIMONIALS -->
+<section class="py-12 bg-primary/5">
+  <h2 class="text-3xl font-bold text-center mb-8">What Our Customers Say</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto px-4">
+    <div class="p-6 bg-white dark:bg-background-dark rounded-xl shadow-md">
+      <p class="text-accent mb-3">⭐⭐⭐⭐⭐</p>
+      <p>"The best plantain chips I've ever tasted! Fresh, crispy, and the flavors are incredible."</p>
+      <p class="font-semibold mt-2">— Fimidara O.</p>
     </div>
-
-    <!-- Flavor Options -->
-    <div class="mt-8 p-6 bg-primary/5 rounded-xl text-center">
-      <p class="text-lg font-semibold mb-2">🌟 All Sizes Available In:</p>
-      <div class="flex flex-wrap justify-center gap-3 mt-3">
-        <span class="px-4 py-2 bg-white dark:bg-background-dark rounded-full text-sm font-medium">Classic Salted</span>
-        <span class="px-4 py-2 bg-white dark:bg-background-dark rounded-full text-sm font-medium">Sweet & Crunchy</span>
-        <span class="px-4 py-2 bg-white dark:bg-background-dark rounded-full text-sm font-medium">Spicy Vibes 🌶️</span>
-      </div>
+    <div class="p-6 bg-white dark:bg-background-dark rounded-xl shadow-md">
+      <p class="text-accent mb-3">⭐⭐⭐⭐⭐</p>
+      <p>"Fast delivery and amazing quality. The spicy vibes flavor is my favorite! Highly recommended."</p>
+      <p class="font-semibold mt-2">— Murewa P.</p>
     </div>
   </div>
+</section>
 
-  <!-- Testimonials -->
-  <div class="py-12">
-    <h2 class="text-3xl font-bold text-center mb-8">What Our Customers Say</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      <div class="p-6 rounded-xl bg-primary/5 border border-primary/10">
-        <div class="flex items-center gap-2 mb-3">
-          <span class="text-accent">⭐⭐⭐⭐⭐</span>
-        </div>
-        <p class="text-text-light/80 dark:text-text-dark/80 mb-3">"The best plantain chips I've ever tasted! Fresh, crispy, and the flavors are incredible."</p>
-        <p class="font-semibold">- Fimidara.O</p>
-      </div>
-      <div class="p-6 rounded-xl bg-primary/5 border border-primary/10">
-        <div class="flex items-center gap-2 mb-3">
-          <span class="text-accent">⭐⭐⭐⭐⭐</span>
-        </div>
-        <p class="text-text-light/80 dark:text-text-dark/80 mb-3">"Fast delivery and amazing quality. The spicy vibes flavor is my favorite! Highly recommended."</p>
-        <p class="font-semibold">- Murewa.P</p>
-      </div>
-    </div>
-  </div>
+<!-- 🚀 CTA -->
+<section class="py-12 text-center bg-gradient-to-r from-primary/10 to-accent/10 rounded-2xl mx-4 mb-12">
+  <h2 class="text-3xl font-bold mb-4">Ready to Order?</h2>
+  <p class="text-lg mb-6 max-w-2xl mx-auto">Join hundreds of satisfied customers enjoying the crispiest, most flavorful plantain chips in town!</p>
+  <a href="https://t.me/Nnomzzyy" target="_blank" class="inline-flex items-center justify-center gap-2 h-14 px-8 bg-primary text-white text-lg font-bold rounded-lg hover:bg-primary/90 transition-all">
+    <span class="material-symbols-outlined">send</span> Chat on Telegram
+  </a>
+</section>
 
-  <!-- CTA -->
-  <div class="py-12 px-4 text-center bg-gradient-to-r from-primary/10 to-accent/10 rounded-2xl mb-12">
-    <h2 class="text-3xl font-bold mb-4">Ready to Order?</h2>
-    <p class="text-lg text-text-light/80 dark:text-text-dark/80 mb-6 max-w-2xl mx-auto">
-      Join hundreds of satisfied customers enjoying the crispiest, most flavorful plantain chips in town!
-    </p>
-    <a href="https://t.me/Nnomzzyy" target="_blank" class="inline-flex items-center justify-center gap-2 rounded-lg h-14 px-8 bg-primary text-white text-lg font-bold hover:bg-primary/90 hover:scale-105 transition-all">
-      <span class="material-symbols-outlined">send</span>
-      <span>Chat on Telegram</span>
-    </a>
-  </div>
-
-</main>
-
+<!-- 🌍 FOOTER -->
 <footer class="border-t border-primary/10 py-10 text-center">
-  <div class="max-w-6xl mx-auto px-4">
-    <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4">
-      <a href="https://instagram.com/nnomzzyy._" target="_blank" class="flex items-center gap-2 text-text-light/70 dark:text-text-dark/70 hover:text-primary transition-colors">
-        <span class="material-symbols-outlined">photo_camera</span>
-        <span>@nnomzyychips</span>
-      </a>
-      <span class="hidden sm:block text-text-light/30">|</span>
-      <a href="https://t.me/Nnomzzyy" target="_blank" class="flex items-center gap-2 text-text-light/70 dark:text-text-dark/70 hover:text-primary transition-colors">
-        <span class="material-symbols-outlined">send</span>
-        <span>Telegram</span>
-      </a>
-    </div>
-    <p class="text-text-light/70 dark:text-text-dark/70 mb-2">
-      Handmade with love <span class="text-accent">💛</span>
-    </p>
-    <p class="text-sm text-text-light/50 dark:text-text-dark/50">
-      © 2025 Nnomzyy Chips. All rights reserved.
-    </p>
-  </div>
+  <p class="text-text-light/70 dark:text-text-dark/70 mb-2">Handmade with love 💛</p>
+  <p class="text-sm text-text-light/50 dark:text-text-dark/50">© 2025 Nnomzyy Chips. All rights reserved.</p>
 </footer>
 
+<!-- ⚙️ Scripts -->
 <script>
   function orderProduct(productName) {
-    const message = encodeURIComponent(`Hi! I'd love to get ${productName}`);
-    window.open(`https://t.me/Nnomzzyytext=${message}`, '_blank');
+    const message = encodeURIComponent(`Hi! I'd love to order ${productName} from Nnomzyy Chips 🍌`);
+    window.open(`https://t.me/Nnomzzyy?text=${message}`, '_blank');
   }
 
   function toggleDarkMode() {
@@ -309,17 +182,6 @@
   if (localStorage.getItem('darkMode') === 'true') {
     document.documentElement.classList.add('dark');
   }
-
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-      e.preventDefault();
-      const target = document.querySelector(this.getAttribute('href'));
-      if (target) {
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-    });
-  });
 </script>
-
 </body>
 </html>
